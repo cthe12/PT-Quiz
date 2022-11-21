@@ -1,0 +1,28 @@
+body {
+    background: url(./img/end-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 4rem;
+    color: white;
+    font-family: 'Peralta', cursive;
+}
+.play-btn {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 2rem 0;
+    width: 20rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #DF6262;
+    margin-top: 4rem;
+    font-family: 'Peralta', cursive;
+    border-radius: 3rem;
+}
+
+.play-btn:hover {
+    cursor: pointer;
+}

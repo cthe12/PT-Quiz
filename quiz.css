@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu&family=Peralta&display=swap');
+
+body {
+    background: url(./img/question-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.answer-container {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    width: 25%;
+    font-size: 1.8 rem;
+    border: 0.1rem solid black;
+    background: rgba(136, 128, 128, 0.5);
+    border-radius: 1.5rem;
+    border: none;
+    transition: 0.4;
+}
+
+.answer-container:hover {
+    cursor: pointer;
+    transform: scale(1);
+    border: 0.1rem solid white;
+    box-shadow: 0 0 1.5rem 0.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.question-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#question {
+    font-family: 'Peralta', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.ans-prefix {
+    padding: 1.5rem 2.5rem;
+    color: white;
+    font-family: 'Peralta', cursive;
+    font-size: 1.1rem;
+}
+
+.ans {
+    padding: 1.5rem;
+    width: 100%;
+    font-family: 'Noto Sans Telugu', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background: red;
+}
+
+.question-container {
+    width: 70rem;
+    height: 35rem;
+    background-color: white;
+    border-radius: 1.3rem;
+    border: 1.5rem solid rgba(136, 128, 128, 0.5);;
+    padding: 2rem;
+    box-shadow: 0 0 1.5rem 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    align-self: center;
+}
+
+#display {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.display-prefix {
+    text-align: center;
+    font-size: 2rem;
+    color: #D94A4A;
+    font-family: 'Peralta', cursive;
+}
+
+.display-main-text {
+    color: #D94A4A;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Peralta', cursive;
+}
